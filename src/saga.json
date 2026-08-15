@@ -1,0 +1,66 @@
+{
+  "key": "saga",
+  "label": "佐賀交通圏",
+  "weatherAreaCode": "410000",
+  "yahooAreaCode": "7",
+  "home": {
+    "name": "佐賀",
+    "lat": 33.2635,
+    "lng": 130.3009,
+    "radiusKm": 35.0
+  },
+  "adjacent": [
+    {
+      "name": "福岡",
+      "lat": 33.5903,
+      "lng": 130.4017,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "鳥栖",
+      "lat": 33.3778,
+      "lng": 130.5147,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "九州新幹線",
+    "西九州新幹線"
+  ],
+  "trainLineNames": [
+    "佐世保線",
+    "唐津線",
+    "松浦鉄道線",
+    "甘木鉄道線",
+    "筑肥線[姪浜〜西唐津]",
+    "筑肥線[西唐津〜伊万里]",
+    "長崎本線",
+    "鹿児島本線[門司港〜大牟田]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/410/0",
+      "九州新幹線",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/640/0",
+      "西九州新幹線",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/525/0",
+      "長崎本線",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/524/0",
+      "唐津線",
+      "jrKyushu"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:saga"
+  ]
+}

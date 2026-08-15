@@ -1,0 +1,77 @@
+{
+  "key": "tama",
+  "label": "多摩交通圏",
+  "weatherAreaCode": "130000",
+  "yahooAreaCode": "4",
+  "home": {
+    "name": "多摩",
+    "lat": 35.68,
+    "lng": 139.3,
+    "radiusKm": 25.0
+  },
+  "adjacent": [
+    {
+      "name": "東京",
+      "lat": 35.6812,
+      "lng": 139.7671,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "相模・鎌倉",
+      "lat": 35.42,
+      "lng": 139.38,
+      "radiusKm": 20.0
+    }
+  ],
+  "fullOperators": [
+    "tamaMonorail"
+  ],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "中央本線[高尾〜大月]",
+    "中央総武線(各停)",
+    "中央線(快速)[東京〜高尾]",
+    "五日市線",
+    "京王井の頭線",
+    "京王動物園線",
+    "京王新線",
+    "京王相模原線",
+    "京王競馬場線",
+    "京王線",
+    "京王高尾線",
+    "八高川越線[八王子〜川越]",
+    "南武線[川崎〜立川]",
+    "多摩都市モノレール線",
+    "小田急多摩線",
+    "小田急小田原線",
+    "横浜線",
+    "武蔵野線",
+    "西武国分寺線",
+    "西武多摩川線",
+    "西武多摩湖線",
+    "西武拝島線",
+    "西武新宿線",
+    "青梅線[立川〜青梅]",
+    "青梅線[青梅〜奥多摩]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/156/0",
+      "多摩都市モノレール線",
+      "tamaMonorail"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/102/0",
+      "京王線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/38/0",
+      "中央線(快速)[東京〜高尾]",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:tama"
+  ]
+}

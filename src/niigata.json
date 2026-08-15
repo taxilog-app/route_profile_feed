@@ -1,0 +1,61 @@
+{
+  "key": "niigata",
+  "label": "新潟県A交通圏",
+  "weatherAreaCode": "150000",
+  "yahooAreaCode": "5",
+  "home": {
+    "name": "新潟",
+    "lat": 37.9161,
+    "lng": 139.0364,
+    "radiusKm": 18.0
+  },
+  "adjacent": [
+    {
+      "name": "長岡",
+      "lat": 37.4461,
+      "lng": 138.8514,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "上越新幹線"
+  ],
+  "trainLineNames": [
+    "上越線[水上〜長岡]",
+    "信越本線[直江津〜新潟]",
+    "北越急行ほくほく線",
+    "弥彦線",
+    "越後線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/3/0",
+      "上越新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/469/0",
+      "白新線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/445/0",
+      "磐越西線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/468/625",
+      "羽越本線[新津〜酒田]",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/477/0",
+      "越後線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:niigata_a"
+  ]
+}

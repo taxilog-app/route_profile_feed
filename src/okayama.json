@@ -1,0 +1,53 @@
+{
+  "key": "okayama",
+  "label": "岡山交通圏",
+  "weatherAreaCode": "330000",
+  "yahooAreaCode": "8",
+  "home": {
+    "name": "岡山",
+    "lat": 34.6664,
+    "lng": 133.9187,
+    "radiusKm": 18.0
+  },
+  "adjacent": [
+    {
+      "name": "倉敷",
+      "lat": 34.585,
+      "lng": 133.772,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "山陽新幹線"
+  ],
+  "trainLineNames": [
+    "伯備線",
+    "吉備線",
+    "宇野線[茶屋町〜宇野]",
+    "山陽本線[姫路〜三原]",
+    "津山線",
+    "瀬戸大橋線[岡山〜児島]",
+    "赤穂線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/8/0",
+      "山陽新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/585/0",
+      "岡山電気軌道線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/586/0",
+      "水島臨海鉄道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:okayama"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "key": "kitakyushu",
+  "label": "北九州市域交通圏",
+  "weatherAreaCode": "400000",
+  "yahooAreaCode": "7",
+  "home": {
+    "name": "北九州",
+    "lat": 33.8858,
+    "lng": 130.8829,
+    "radiusKm": 20.0
+  },
+  "adjacent": [
+    {
+      "name": "福岡",
+      "lat": 33.5903,
+      "lng": 130.4017,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "筑豊",
+      "lat": 33.6449,
+      "lng": 130.6916,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [
+    "nishitetsu"
+  ],
+  "trunkLineNames": [
+    "九州新幹線",
+    "山陽新幹線"
+  ],
+  "trainLineNames": [
+    "山陽本線[下関〜門司]",
+    "日田彦山線",
+    "日豊本線[小倉〜大分]",
+    "福北ゆたか線",
+    "若松線",
+    "鹿児島本線[門司港〜大牟田]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/8/0",
+      "山陽新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/410/0",
+      "九州新幹線",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/604/0",
+      "北九州モノレール線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/605/0",
+      "筑豊電鉄線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:kitakyushu"
+  ]
+}

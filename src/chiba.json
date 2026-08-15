@@ -1,0 +1,83 @@
+{
+  "key": "chiba",
+  "label": "千葉交通圏",
+  "weatherAreaCode": "120000",
+  "yahooAreaCode": "4",
+  "home": {
+    "name": "千葉",
+    "lat": 35.61,
+    "lng": 140.11,
+    "radiusKm": 35.0
+  },
+  "adjacent": [
+    {
+      "name": "東京",
+      "lat": 35.6812,
+      "lng": 139.7671,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "成田",
+      "lat": 35.7767,
+      "lng": 140.3186,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "いすみ鉄道線",
+    "つくばエクスプレス線",
+    "ディズニーリゾートライン",
+    "中央総武線(各停)",
+    "久留里線",
+    "京成千葉線・千原線",
+    "京成本線",
+    "京成東成田線",
+    "京成松戸線",
+    "京葉線",
+    "内房線",
+    "北総線",
+    "千葉都市モノレール線",
+    "外房線",
+    "小湊鉄道線",
+    "山万ユーカリが丘線",
+    "成田スカイアクセス線",
+    "成田線[千葉〜成田空港・銚子]",
+    "成田線[我孫子〜成田]",
+    "東葉高速線",
+    "東金線",
+    "武蔵野線",
+    "流鉄流山線",
+    "総武本線[千葉〜銚子]",
+    "総武線(快速)[東京〜千葉]",
+    "芝山鉄道線",
+    "銚子電鉄線",
+    "鹿島線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/157/0",
+      "千葉都市モノレール線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/96/0",
+      "京成本線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/99/0",
+      "京成千葉線・千原線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/142/0",
+      "東葉高速線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:chiba"
+  ]
+}

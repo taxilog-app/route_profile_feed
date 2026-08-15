@@ -1,0 +1,68 @@
+{
+  "key": "nagoya",
+  "label": "名古屋交通圏",
+  "weatherAreaCode": "230000",
+  "yahooAreaCode": "5",
+  "home": {
+    "name": "名古屋",
+    "lat": 35.1706,
+    "lng": 136.8816,
+    "radiusKm": 20.0
+  },
+  "adjacent": [
+    {
+      "name": "岐阜",
+      "lat": 35.4233,
+      "lng": 136.7606,
+      "radiusKm": 15.0
+    },
+    {
+      "name": "三河",
+      "lat": 35.0824,
+      "lng": 137.1563,
+      "radiusKm": 18.0
+    },
+    {
+      "name": "四日市",
+      "lat": 34.965,
+      "lng": 136.6244,
+      "radiusKm": 13.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "あおなみ線",
+    "名城線",
+    "名鉄",
+    "東山線",
+    "東海道新幹線",
+    "桜通線",
+    "近鉄"
+  ],
+  "trainLineNames": [
+    "中央本線[名古屋〜中津川]",
+    "東海道本線[豊橋〜米原]",
+    "武豊線",
+    "関西本線[名古屋〜亀山]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/240/0",
+      "名古屋市営東山線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/208/0",
+      "名鉄名古屋本線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:nagoya"
+  ]
+}

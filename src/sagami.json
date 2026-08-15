@@ -1,0 +1,69 @@
+{
+  "key": "sagami",
+  "label": "相模・鎌倉交通圏",
+  "weatherAreaCode": "140000",
+  "yahooAreaCode": "4",
+  "home": {
+    "name": "相模・鎌倉",
+    "lat": 35.42,
+    "lng": 139.38,
+    "radiusKm": 25.0
+  },
+  "adjacent": [
+    {
+      "name": "横浜・川崎",
+      "lat": 35.466,
+      "lng": 139.6222,
+      "radiusKm": 18.0
+    },
+    {
+      "name": "多摩",
+      "lat": 35.68,
+      "lng": 139.3,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "ブルーライン",
+    "京急逗子線",
+    "京王相模原線",
+    "小田急小田原線",
+    "小田急江ノ島線",
+    "東急田園都市線",
+    "東海道本線[東京〜熱海]",
+    "横浜線",
+    "横須賀線",
+    "江ノ島電鉄線",
+    "湘南モノレール線",
+    "湘南新宿ライン",
+    "相模線",
+    "相鉄線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/33/0",
+      "相模線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/110/0",
+      "小田急江ノ島線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/148/0",
+      "江ノ島電鉄線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/155/0",
+      "湘南モノレール線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:sagami"
+  ]
+}

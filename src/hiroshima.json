@@ -1,0 +1,70 @@
+{
+  "key": "hiroshima",
+  "label": "広島市域交通圏",
+  "weatherAreaCode": "340000",
+  "yahooAreaCode": "8",
+  "home": {
+    "name": "広島",
+    "lat": 34.3955,
+    "lng": 132.4596,
+    "radiusKm": 20.0
+  },
+  "adjacent": [
+    {
+      "name": "東広島",
+      "lat": 34.4269,
+      "lng": 132.7433,
+      "radiusKm": 14.0
+    },
+    {
+      "name": "呉",
+      "lat": 34.2493,
+      "lng": 132.5657,
+      "radiusKm": 13.0
+    },
+    {
+      "name": "廿日市",
+      "lat": 34.3486,
+      "lng": 132.3316,
+      "radiusKm": 10.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "山陽新幹線"
+  ],
+  "trainLineNames": [
+    "アストラムライン",
+    "可部線",
+    "呉線",
+    "山陽本線[三原〜岩国]",
+    "広島電鉄宮島線",
+    "広島電鉄市内線",
+    "芸備線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/8/0",
+      "山陽新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/589/0",
+      "広島電鉄市内線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/588/0",
+      "広島電鉄宮島線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/590/0",
+      "アストラムライン",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:hiroshima_city"
+  ]
+}

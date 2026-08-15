@@ -1,0 +1,44 @@
+{
+  "key": "nagasaki",
+  "label": "長崎本土交通圏",
+  "weatherAreaCode": "420000",
+  "yahooAreaCode": "7",
+  "home": {
+    "name": "長崎",
+    "lat": 32.7526,
+    "lng": 129.8677,
+    "radiusKm": 16.0
+  },
+  "adjacent": [
+    {
+      "name": "諫早",
+      "lat": 32.8442,
+      "lng": 130.0533,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "西九州新幹線"
+  ],
+  "trainLineNames": [
+    "大村線",
+    "島原鉄道線",
+    "長崎本線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/640/0",
+      "西九州新幹線",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/612/0",
+      "長崎電気軌道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:nagasaki"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "sendai",
+  "label": "仙台交通圏",
+  "weatherAreaCode": "040000",
+  "yahooAreaCode": "3",
+  "home": {
+    "name": "仙台",
+    "lat": 38.2601,
+    "lng": 140.8819,
+    "radiusKm": 20.0
+  },
+  "adjacent": [
+    {
+      "name": "石巻",
+      "lat": 38.4344,
+      "lng": 141.3028,
+      "radiusKm": 12.0
+    },
+    {
+      "name": "名取",
+      "lat": 38.1717,
+      "lng": 140.8917,
+      "radiusKm": 10.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "山形新幹線",
+    "東北新幹線",
+    "秋田新幹線"
+  ],
+  "trainLineNames": [
+    "仙山線",
+    "仙石線",
+    "常磐線[いわき〜仙台]",
+    "東北本線[仙台〜一ノ関]",
+    "東北本線[福島〜仙台]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/1/0",
+      "東北新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/6/0",
+      "秋田新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/5/0",
+      "山形新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/20/0",
+      "仙台市営南北線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/636/0",
+      "仙台市営東西線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/542/0",
+      "仙台空港アクセス線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/549/0",
+      "阿武隈急行線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:sendai"
+  ]
+}

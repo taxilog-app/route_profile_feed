@@ -1,0 +1,85 @@
+{
+  "key": "kyoto",
+  "label": "京都市域交通圏",
+  "weatherAreaCode": "260000",
+  "yahooAreaCode": "6",
+  "home": {
+    "name": "京都",
+    "lat": 35.0116,
+    "lng": 135.7681,
+    "radiusKm": 30.0
+  },
+  "adjacent": [
+    {
+      "name": "大阪",
+      "lat": 34.7025,
+      "lng": 135.4959,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "大津",
+      "lat": 35.0045,
+      "lng": 135.8686,
+      "radiusKm": 10.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "山陽新幹線",
+    "東海道新幹線"
+  ],
+  "trainLineNames": [
+    "JR京都線",
+    "京都市営東西線",
+    "京都市営烏丸線",
+    "京阪京津線",
+    "京阪宇治線",
+    "京阪本線・中之島線",
+    "叡山電鉄線",
+    "奈良線",
+    "学研都市線",
+    "嵐電",
+    "嵯峨野線",
+    "湖西線",
+    "琵琶湖線",
+    "草津線",
+    "近鉄京都線",
+    "阪急京都本線",
+    "阪急嵐山線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/8/0",
+      "山陽新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/318/0",
+      "京都市営烏丸線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/319/0",
+      "京都市営東西線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/358/0",
+      "嵐電",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/360/0",
+      "叡山電鉄線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:kyoto_city"
+  ]
+}

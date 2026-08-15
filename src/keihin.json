@@ -1,0 +1,84 @@
+{
+  "key": "keihin",
+  "label": "京浜交通圏",
+  "weatherAreaCode": "140000",
+  "yahooAreaCode": "4",
+  "home": {
+    "name": "横浜・川崎",
+    "lat": 35.42,
+    "lng": 139.63,
+    "radiusKm": 30.0
+  },
+  "adjacent": [
+    {
+      "name": "東京",
+      "lat": 35.6812,
+      "lng": 139.7671,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "相模・鎌倉",
+      "lat": 35.42,
+      "lng": 139.38,
+      "radiusKm": 20.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "東海道新幹線"
+  ],
+  "trainLineNames": [
+    "みなとみらい線",
+    "グリーンライン",
+    "シーサイドライン",
+    "ブルーライン",
+    "上野東京ライン",
+    "京急大師線",
+    "京急本線",
+    "京急空港線",
+    "京浜東北根岸線",
+    "南武線[川崎〜立川]",
+    "南武線[浜川崎〜尻手]",
+    "埼京川越線[羽沢横浜国大〜川越]",
+    "東急新横浜線",
+    "東急東横線",
+    "東急田園都市線",
+    "東急目黒線",
+    "東海道本線[東京〜熱海]",
+    "横浜線",
+    "横須賀線",
+    "湘南新宿ライン",
+    "相鉄線",
+    "鶴見線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/140/0",
+      "ブルーライン",
+      "yokohamaMunicipal"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/539/0",
+      "グリーンライン",
+      "yokohamaMunicipal"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/401/0",
+      "みなとみらい線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/125/0",
+      "相鉄線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:keihin"
+  ]
+}

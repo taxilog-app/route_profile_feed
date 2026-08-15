@@ -1,0 +1,86 @@
+{
+  "key": "owari_mikawa",
+  "label": "尾張・三河交通圏",
+  "weatherAreaCode": "230000",
+  "yahooAreaCode": "5",
+  "home": {
+    "name": "尾張・三河",
+    "lat": 35.03,
+    "lng": 137.09,
+    "radiusKm": 45.0
+  },
+  "adjacent": [
+    {
+      "name": "名古屋",
+      "lat": 35.1706,
+      "lng": 136.8816,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "岐阜",
+      "lat": 35.4233,
+      "lng": 136.7606,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "東海道新幹線"
+  ],
+  "trainLineNames": [
+    "リニモ",
+    "中央本線[名古屋〜中津川]",
+    "名鉄三河線",
+    "名鉄名古屋本線",
+    "名鉄小牧線",
+    "名鉄常滑線・空港線",
+    "名鉄広見線",
+    "名鉄河和線・知多新線",
+    "名鉄津島線・尾西線",
+    "名鉄瀬戸線",
+    "名鉄犬山線",
+    "名鉄築港線",
+    "名鉄蒲郡線",
+    "名鉄西尾線",
+    "名鉄豊川線",
+    "名鉄豊田線",
+    "城北線",
+    "愛知環状鉄道線",
+    "東海道本線[熱海〜豊橋]",
+    "東海道本線[豊橋〜米原]",
+    "武豊線",
+    "豊橋鉄道市内線",
+    "豊橋鉄道渥美線",
+    "飯田線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/208/0",
+      "名鉄名古屋本線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/250/0",
+      "豊橋鉄道渥美線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/251/0",
+      "豊橋鉄道市内線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/259/0",
+      "愛知環状鉄道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:owari_mikawa"
+  ]
+}

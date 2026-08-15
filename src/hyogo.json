@@ -1,0 +1,75 @@
+{
+  "key": "hyogo",
+  "label": "兵庫交通圏",
+  "weatherAreaCode": "280000",
+  "yahooAreaCode": "6",
+  "home": {
+    "name": "姫路",
+    "lat": 34.8266,
+    "lng": 134.6853,
+    "radiusKm": 30.0
+  },
+  "adjacent": [
+    {
+      "name": "神戸",
+      "lat": 34.6901,
+      "lng": 135.1955,
+      "radiusKm": 18.0
+    },
+    {
+      "name": "加古川",
+      "lat": 34.7569,
+      "lng": 134.8414,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "山陽新幹線"
+  ],
+  "trainLineNames": [
+    "JR神戸線",
+    "京都丹後鉄道宮舞線・宮豊線",
+    "加古川線",
+    "北条鉄道線",
+    "山陰本線[園部〜鳥取]",
+    "山陽電鉄本線",
+    "山陽電鉄網干線",
+    "播但線",
+    "神戸電鉄公園都市線",
+    "神戸電鉄有馬・三田線",
+    "神戸電鉄粟生線",
+    "福知山線[篠山口〜福知山]",
+    "舞鶴線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/8/0",
+      "山陽新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/332/417",
+      "山陽本線[姫路〜三原]",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/330/0",
+      "赤穂線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/335/0",
+      "姫新線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/354/0",
+      "山陽電鉄本線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:hyogo"
+  ]
+}

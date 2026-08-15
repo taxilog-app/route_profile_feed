@@ -1,0 +1,91 @@
+{
+  "key": "kobe",
+  "label": "神戸市域交通圏",
+  "weatherAreaCode": "280000",
+  "yahooAreaCode": "6",
+  "home": {
+    "name": "神戸",
+    "lat": 34.6901,
+    "lng": 135.1955,
+    "radiusKm": 25.0
+  },
+  "adjacent": [
+    {
+      "name": "大阪",
+      "lat": 34.7025,
+      "lng": 135.4959,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "明石",
+      "lat": 34.6431,
+      "lng": 134.9975,
+      "radiusKm": 10.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "山陽新幹線",
+    "東海道新幹線"
+  ],
+  "trainLineNames": [
+    "JR宝塚線",
+    "JR東西線",
+    "JR神戸線",
+    "ポートライナー",
+    "六甲ライナー",
+    "和田岬線",
+    "学研都市線",
+    "山陽電鉄本線",
+    "神戸市営海岸線",
+    "神戸市営西神・山手線・北神線",
+    "神戸電鉄公園都市線",
+    "神戸電鉄有馬・三田線",
+    "神戸電鉄粟生線",
+    "神戸高速線",
+    "能勢電鉄線",
+    "阪急今津線",
+    "阪急伊丹線",
+    "阪急宝塚本線",
+    "阪急甲陽線",
+    "阪急神戸本線",
+    "阪神なんば線",
+    "阪神本線",
+    "阪神武庫川線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/8/0",
+      "山陽新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/328/0",
+      "神戸市営西神・山手線・北神線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/329/0",
+      "神戸市営海岸線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/384/0",
+      "ポートライナー",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/385/0",
+      "六甲ライナー",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:kobe"
+  ]
+}

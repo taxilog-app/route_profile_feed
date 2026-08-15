@@ -1,0 +1,56 @@
+{
+  "key": "miyazaki",
+  "label": "宮崎交通圏",
+  "weatherAreaCode": "450000",
+  "yahooAreaCode": "7",
+  "home": {
+    "name": "宮崎",
+    "lat": 31.9111,
+    "lng": 131.4239,
+    "radiusKm": 45.0
+  },
+  "adjacent": [
+    {
+      "name": "都城",
+      "lat": 31.7194,
+      "lng": 131.0614,
+      "radiusKm": 15.0
+    },
+    {
+      "name": "延岡",
+      "lat": 32.5822,
+      "lng": 131.6653,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "吉都線",
+    "宮崎空港線",
+    "日南線",
+    "日豊本線[大分〜宮崎]",
+    "日豊本線[宮崎〜鹿児島中央]",
+    "肥薩線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/388/633",
+      "日豊本線[宮崎〜鹿児島中央]",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/533/0",
+      "宮崎空港線",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/534/0",
+      "日南線",
+      "jrKyushu"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:miyazaki"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "key": "okinawa",
+  "label": "沖縄県本島交通圏",
+  "weatherAreaCode": "471000",
+  "yahooAreaCode": "7",
+  "home": {
+    "name": "那覇",
+    "lat": 26.2124,
+    "lng": 127.6809,
+    "radiusKm": 18.0
+  },
+  "adjacent": [],
+  "fullOperators": [],
+  "trunkLineNames": [],
+  "trainLineNames": [],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/620/0",
+      "ゆいレール",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:okinawa_main"
+  ]
+}

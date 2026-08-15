@@ -1,0 +1,103 @@
+{
+  "key": "tokyo",
+  "label": "東京23区・武三交通圏",
+  "weatherAreaCode": "130000",
+  "yahooAreaCode": "4",
+  "home": {
+    "name": "東京",
+    "lat": 35.6812,
+    "lng": 139.7671,
+    "radiusKm": 20.0
+  },
+  "adjacent": [
+    {
+      "name": "横浜",
+      "lat": 35.466,
+      "lng": 139.6222,
+      "radiusKm": 15.0
+    },
+    {
+      "name": "川崎",
+      "lat": 35.5308,
+      "lng": 139.7029,
+      "radiusKm": 10.0
+    },
+    {
+      "name": "さいたま",
+      "lat": 35.8617,
+      "lng": 139.6455,
+      "radiusKm": 13.0
+    },
+    {
+      "name": "千葉",
+      "lat": 35.6073,
+      "lng": 140.1063,
+      "radiusKm": 13.0
+    },
+    {
+      "name": "立川・多摩",
+      "lat": 35.6939,
+      "lng": 139.4188,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [
+    "tamaMonorail",
+    "toei",
+    "tokyoMetro",
+    "tsukubaExpress",
+    "twr",
+    "yokohamaMunicipal"
+  ],
+  "trunkLineNames": [
+    "上越新幹線",
+    "北陸新幹線",
+    "東北新幹線",
+    "東海道新幹線"
+  ],
+  "trainLineNames": [
+    "ゆりかもめ線",
+    "上野東京ライン",
+    "中央総武線(各停)",
+    "中央線(快速)[東京〜高尾]",
+    "京浜東北根岸線",
+    "京葉線",
+    "埼京川越線[羽沢横浜国大〜川越]",
+    "宇都宮線[東京〜宇都宮]",
+    "山手線",
+    "常磐線(各停)",
+    "常磐線(快速)[品川〜取手]",
+    "東京モノレール線",
+    "東海道本線[東京〜熱海]",
+    "横須賀線",
+    "武蔵野線",
+    "湘南新宿ライン",
+    "総武線(快速)[東京〜千葉]",
+    "高崎線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/1/0",
+      "東北新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/3/0",
+      "上越新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/624/0",
+      "北陸新幹線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "town_boundary_tokyo"
+  ]
+}

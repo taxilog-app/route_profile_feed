@@ -1,0 +1,65 @@
+{
+  "key": "gunma_a",
+  "label": "群馬県A交通圏",
+  "weatherAreaCode": "100000",
+  "yahooAreaCode": "4",
+  "home": {
+    "name": "高崎・前橋",
+    "lat": 36.356,
+    "lng": 139.038,
+    "radiusKm": 30.0
+  },
+  "adjacent": [
+    {
+      "name": "太田・桐生",
+      "lat": 36.38,
+      "lng": 139.37,
+      "radiusKm": 18.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "上越新幹線",
+    "北陸新幹線"
+  ],
+  "trainLineNames": [
+    "わたらせ渓谷鐵道線",
+    "上信電鉄線",
+    "上毛電鉄線",
+    "上越線[高崎〜水上]",
+    "両毛線",
+    "信越本線[高崎〜横川]",
+    "八高線[高麗川〜高崎]",
+    "吾妻線",
+    "東武伊勢崎線[久喜〜伊勢崎]",
+    "東武佐野線",
+    "東武小泉線",
+    "東武桐生線",
+    "高崎線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/3/0",
+      "上越新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/624/0",
+      "北陸新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/179/0",
+      "上信電鉄線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/180/0",
+      "上毛電鉄線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:gunma_a"
+  ]
+}

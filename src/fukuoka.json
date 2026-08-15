@@ -1,0 +1,62 @@
+{
+  "key": "fukuoka",
+  "label": "福岡交通圏",
+  "weatherAreaCode": "400000",
+  "yahooAreaCode": "7",
+  "home": {
+    "name": "福岡",
+    "lat": 33.5903,
+    "lng": 130.4017,
+    "radiusKm": 28.0
+  },
+  "adjacent": [
+    {
+      "name": "北九州",
+      "lat": 33.8858,
+      "lng": 130.8829,
+      "radiusKm": 18.0
+    },
+    {
+      "name": "久留米",
+      "lat": 33.3192,
+      "lng": 130.5083,
+      "radiusKm": 15.0
+    },
+    {
+      "name": "佐賀",
+      "lat": 33.2635,
+      "lng": 130.3009,
+      "radiusKm": 15.0
+    },
+    {
+      "name": "筑豊",
+      "lat": 33.6449,
+      "lng": 130.6916,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [
+    "fukuokaSubway",
+    "nishitetsu"
+  ],
+  "trunkLineNames": [
+    "九州新幹線",
+    "山陽新幹線",
+    "東海道新幹線"
+  ],
+  "trainLineNames": [
+    "久大本線",
+    "佐世保線",
+    "日豊本線[小倉〜大分]",
+    "福北ゆたか線",
+    "筑肥線[姪浜〜西唐津]",
+    "長崎本線",
+    "香椎線",
+    "鹿児島本線[門司港〜大牟田]"
+  ],
+  "individualLines": [],
+  "boundaryDirs": [
+    "hub:fukuoka_b",
+    "town_boundary"
+  ]
+}

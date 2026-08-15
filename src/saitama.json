@@ -1,0 +1,84 @@
+{
+  "key": "saitama",
+  "label": "埼玉県南部交通圏",
+  "weatherAreaCode": "110000",
+  "yahooAreaCode": "4",
+  "home": {
+    "name": "さいたま",
+    "lat": 35.8617,
+    "lng": 139.6455,
+    "radiusKm": 28.0
+  },
+  "adjacent": [
+    {
+      "name": "東京",
+      "lat": 35.6812,
+      "lng": 139.7671,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "川越",
+      "lat": 35.9251,
+      "lng": 139.4858,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "上越新幹線",
+    "北陸新幹線",
+    "東北新幹線"
+  ],
+  "trainLineNames": [
+    "つくばエクスプレス線",
+    "ニューシャトル",
+    "上野東京ライン",
+    "京浜東北根岸線",
+    "八高川越線[八王子〜川越]",
+    "埼京川越線[羽沢横浜国大〜川越]",
+    "埼玉高速鉄道線",
+    "宇都宮線[東京〜宇都宮]",
+    "東武アーバンパークライン",
+    "東武スカイツリーライン",
+    "東武伊勢崎線[久喜〜伊勢崎]",
+    "東武東上線",
+    "東武越生線",
+    "武蔵野線",
+    "湘南新宿ライン",
+    "西武山口線",
+    "西武新宿線",
+    "西武池袋線・秩父線",
+    "西武狭山線",
+    "高崎線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/1/0",
+      "東北新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/3/0",
+      "上越新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/624/0",
+      "北陸新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/161/0",
+      "ニューシャトル",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/143/0",
+      "埼玉高速鉄道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:saitama_s"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "key": "kumamoto",
+  "label": "熊本交通圏",
+  "weatherAreaCode": "430000",
+  "yahooAreaCode": "7",
+  "home": {
+    "name": "熊本",
+    "lat": 32.7898,
+    "lng": 130.6917,
+    "radiusKm": 18.0
+  },
+  "adjacent": [
+    {
+      "name": "八代",
+      "lat": 32.5075,
+      "lng": 130.6017,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "九州新幹線"
+  ],
+  "trainLineNames": [
+    "三角線",
+    "豊肥本線",
+    "鹿児島本線[大牟田〜八代]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/410/0",
+      "九州新幹線",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/616/0",
+      "熊本市電",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/617/0",
+      "熊本電鉄線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:kumamoto"
+  ]
+}

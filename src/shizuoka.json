@@ -1,0 +1,54 @@
+{
+  "key": "shizuoka",
+  "label": "静岡交通圏",
+  "weatherAreaCode": "220000",
+  "yahooAreaCode": "5",
+  "home": {
+    "name": "静岡",
+    "lat": 34.9756,
+    "lng": 138.3828,
+    "radiusKm": 40.0
+  },
+  "adjacent": [
+    {
+      "name": "浜松",
+      "lat": 34.7036,
+      "lng": 137.7346,
+      "radiusKm": 20.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "東海道新幹線"
+  ],
+  "trainLineNames": [
+    "大井川鉄道大井川本線",
+    "天竜浜名湖鉄道線",
+    "岳南鉄道線",
+    "御殿場線",
+    "東海道本線[熱海〜豊橋]",
+    "身延線",
+    "遠州鉄道線",
+    "静岡鉄道線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/246/0",
+      "静岡鉄道線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/249/0",
+      "遠州鉄道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:shizuoka"
+  ]
+}

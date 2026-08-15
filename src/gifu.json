@@ -1,0 +1,64 @@
+{
+  "key": "gifu",
+  "label": "岐阜交通圏",
+  "weatherAreaCode": "210000",
+  "yahooAreaCode": "5",
+  "home": {
+    "name": "岐阜",
+    "lat": 35.4233,
+    "lng": 136.7606,
+    "radiusKm": 35.0
+  },
+  "adjacent": [
+    {
+      "name": "名古屋",
+      "lat": 35.1706,
+      "lng": 136.8816,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "多治見",
+      "lat": 35.3327,
+      "lng": 137.1319,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "東海道新幹線"
+  ],
+  "trainLineNames": [
+    "中央本線[名古屋〜中津川]",
+    "名鉄各務原線",
+    "名鉄名古屋本線",
+    "名鉄広見線",
+    "名鉄竹鼻・羽島線",
+    "太多線",
+    "明知鉄道線",
+    "東海道本線[豊橋〜米原]",
+    "樽見鉄道線",
+    "長良川鉄道越美南線",
+    "養老鉄道線",
+    "高山本線[岐阜〜猪谷]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/219/0",
+      "名鉄各務原線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/563/0",
+      "養老鉄道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:gifu"
+  ]
+}

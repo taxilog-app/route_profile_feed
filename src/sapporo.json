@@ -1,0 +1,66 @@
+{
+  "key": "sapporo",
+  "label": "札幌・小樽交通圏",
+  "weatherAreaCode": "016000",
+  "yahooAreaCode": "2",
+  "home": {
+    "name": "札幌",
+    "lat": 43.0687,
+    "lng": 141.3508,
+    "radiusKm": 20.0
+  },
+  "adjacent": [
+    {
+      "name": "小樽",
+      "lat": 43.1907,
+      "lng": 140.9947,
+      "radiusKm": 10.0
+    },
+    {
+      "name": "千歳",
+      "lat": 42.8206,
+      "lng": 141.652,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "北海道新幹線"
+  ],
+  "trainLineNames": [
+    "函館本線[小樽〜札幌]",
+    "函館本線[札幌〜岩見沢]",
+    "千歳線",
+    "学園都市線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/637/0",
+      "北海道新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/14/0",
+      "札幌市営南北線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/13/0",
+      "札幌市営東西線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/15/0",
+      "札幌市営東豊線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/545/0",
+      "札幌市電",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:sapporo"
+  ]
+}

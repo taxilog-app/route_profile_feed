@@ -1,0 +1,72 @@
+{
+  "key": "mie",
+  "label": "三重交通圏",
+  "weatherAreaCode": "240000",
+  "yahooAreaCode": "5",
+  "home": {
+    "name": "三重",
+    "lat": 34.72,
+    "lng": 136.58,
+    "radiusKm": 45.0
+  },
+  "adjacent": [
+    {
+      "name": "名古屋",
+      "lat": 35.1706,
+      "lng": 136.8816,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "伊勢",
+      "lat": 34.4873,
+      "lng": 136.7093,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "三岐鉄道三岐線",
+    "三岐鉄道北勢線",
+    "伊勢鉄道線",
+    "参宮線",
+    "名松線",
+    "四日市あすなろう鉄道線",
+    "紀勢本線[亀山〜新宮]",
+    "近鉄名古屋線",
+    "近鉄山田線・鳥羽線・志摩線",
+    "近鉄湯の山線",
+    "近鉄鈴鹿線",
+    "関西本線[名古屋〜亀山]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/230/0",
+      "近鉄名古屋線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/260/0",
+      "伊勢鉄道線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/635/0",
+      "四日市あすなろう鉄道線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/284/0",
+      "近鉄大阪線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/621/0",
+      "伊賀鉄道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:mie"
+  ]
+}

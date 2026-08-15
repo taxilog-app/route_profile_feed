@@ -1,0 +1,55 @@
+{
+  "key": "oita",
+  "label": "大分交通圏",
+  "weatherAreaCode": "440000",
+  "yahooAreaCode": "7",
+  "home": {
+    "name": "大分",
+    "lat": 33.2382,
+    "lng": 131.6126,
+    "radiusKm": 40.0
+  },
+  "adjacent": [
+    {
+      "name": "別府",
+      "lat": 33.2794,
+      "lng": 131.4914,
+      "radiusKm": 12.0
+    },
+    {
+      "name": "中津",
+      "lat": 33.5983,
+      "lng": 131.1883,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "久大本線",
+    "日田彦山線",
+    "日豊本線[大分〜宮崎]",
+    "日豊本線[小倉〜大分]",
+    "豊肥本線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/388/519",
+      "日豊本線[小倉〜大分]",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/528/0",
+      "久大本線",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/529/0",
+      "豊肥本線",
+      "jrKyushu"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:oita"
+  ]
+}

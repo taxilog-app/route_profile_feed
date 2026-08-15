@@ -1,0 +1,66 @@
+{
+  "key": "nara",
+  "label": "奈良交通圏",
+  "weatherAreaCode": "290000",
+  "yahooAreaCode": "6",
+  "home": {
+    "name": "奈良",
+    "lat": 34.6851,
+    "lng": 135.8048,
+    "radiusKm": 30.0
+  },
+  "adjacent": [
+    {
+      "name": "大阪",
+      "lat": 34.7025,
+      "lng": 135.4959,
+      "radiusKm": 20.0
+    },
+    {
+      "name": "京都",
+      "lat": 35.0116,
+      "lng": 135.7681,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "和歌山線",
+    "大和路線",
+    "奈良線",
+    "桜井線",
+    "近鉄けいはんな線",
+    "近鉄京都線",
+    "近鉄信貴線",
+    "近鉄吉野線",
+    "近鉄大阪線",
+    "近鉄天理線",
+    "近鉄奈良線",
+    "近鉄御所線",
+    "近鉄橿原線",
+    "近鉄生駒線",
+    "近鉄田原本線",
+    "関西本線[亀山〜加茂]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/285/0",
+      "近鉄奈良線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/277/0",
+      "大和路線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/289/0",
+      "近鉄橿原線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:nara"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "key": "hakodate",
+  "label": "函館Ａ交通圏",
+  "weatherAreaCode": "017000",
+  "yahooAreaCode": "2",
+  "home": {
+    "name": "函館",
+    "lat": 41.7737,
+    "lng": 140.7267,
+    "radiusKm": 14.0
+  },
+  "adjacent": [],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "北海道新幹線"
+  ],
+  "trainLineNames": [
+    "函館本線[函館〜長万部]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/637/0",
+      "北海道新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/546/0",
+      "函館市電",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/638/0",
+      "道南いさりび鉄道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:hakodate_a"
+  ]
+}

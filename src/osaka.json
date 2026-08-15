@@ -1,0 +1,82 @@
+{
+  "key": "osaka",
+  "label": "大阪市域交通圏",
+  "weatherAreaCode": "270000",
+  "yahooAreaCode": "6",
+  "home": {
+    "name": "大阪",
+    "lat": 34.7025,
+    "lng": 135.4959,
+    "radiusKm": 22.0
+  },
+  "adjacent": [
+    {
+      "name": "京都",
+      "lat": 35.0116,
+      "lng": 135.7681,
+      "radiusKm": 15.0
+    },
+    {
+      "name": "神戸",
+      "lat": 34.6901,
+      "lng": 135.1955,
+      "radiusKm": 15.0
+    },
+    {
+      "name": "奈良",
+      "lat": 34.6851,
+      "lng": 135.8048,
+      "radiusKm": 13.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "京阪",
+    "南海",
+    "大阪メトロ",
+    "山陽新幹線",
+    "御堂筋線",
+    "東海道新幹線",
+    "近鉄",
+    "阪急",
+    "阪神"
+  ],
+  "trainLineNames": [
+    "JRゆめ咲線",
+    "JR京都線",
+    "JR宝塚線",
+    "JR東西線",
+    "JR神戸線",
+    "おおさか東線",
+    "大和路線",
+    "大阪環状線",
+    "学研都市線",
+    "関西空港線",
+    "阪和線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/8/0",
+      "山陽新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/321/0",
+      "大阪メトロ御堂筋線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/263/0",
+      "大阪環状線",
+      "jrWest"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:osaka"
+  ]
+}

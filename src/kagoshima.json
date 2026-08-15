@@ -1,0 +1,38 @@
+{
+  "key": "kagoshima",
+  "label": "鹿児島交通圏",
+  "weatherAreaCode": "460100",
+  "yahooAreaCode": "7",
+  "home": {
+    "name": "鹿児島",
+    "lat": 31.5837,
+    "lng": 130.5419,
+    "radiusKm": 18.0
+  },
+  "adjacent": [],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "九州新幹線"
+  ],
+  "trainLineNames": [
+    "指宿枕崎線",
+    "日豊本線[宮崎〜鹿児島中央]",
+    "肥薩おれんじ鉄道線",
+    "鹿児島本線[川内〜鹿児島中央]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/410/0",
+      "九州新幹線",
+      "jrKyushu"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/619/0",
+      "鹿児島市電",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:kagoshima"
+  ]
+}

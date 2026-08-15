@@ -1,0 +1,53 @@
+{
+  "key": "shiga",
+  "label": "滋賀交通圏",
+  "weatherAreaCode": "250000",
+  "yahooAreaCode": "6",
+  "home": {
+    "name": "大津・草津",
+    "lat": 35.01,
+    "lng": 135.89,
+    "radiusKm": 35.0
+  },
+  "adjacent": [
+    {
+      "name": "京都",
+      "lat": 35.0116,
+      "lng": 135.7681,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "東海道新幹線"
+  ],
+  "trainLineNames": [
+    "京阪京津線",
+    "京阪石山坂本線",
+    "信楽高原鐵道線",
+    "湖西線",
+    "琵琶湖線",
+    "草津線",
+    "近江鉄道線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/7/0",
+      "東海道新幹線",
+      "jrWest"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/304/0",
+      "京阪石山坂本線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/364/0",
+      "近江鉄道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:shiga"
+  ]
+}

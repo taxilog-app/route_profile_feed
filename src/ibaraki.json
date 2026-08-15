@@ -1,0 +1,58 @@
+{
+  "key": "ibaraki",
+  "label": "茨城交通圏",
+  "weatherAreaCode": "080000",
+  "yahooAreaCode": "4",
+  "home": {
+    "name": "水戸",
+    "lat": 36.3707,
+    "lng": 140.4757,
+    "radiusKm": 40.0
+  },
+  "adjacent": [
+    {
+      "name": "つくば",
+      "lat": 36.0835,
+      "lng": 140.0764,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [
+    "tsukubaExpress"
+  ],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "つくばエクスプレス線",
+    "ひたちなか海浜鉄道湊線",
+    "常磐線(各停)",
+    "常磐線(快速)[品川〜取手]",
+    "常磐線[品川〜水戸]",
+    "常磐線[水戸〜いわき]",
+    "水戸線",
+    "水郡線",
+    "関東鉄道常総線",
+    "関東鉄道竜ケ崎線",
+    "鹿島線",
+    "鹿島臨海鉄道大洗鹿島線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/412/0",
+      "つくばエクスプレス線",
+      "tsukubaExpress"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/175/0",
+      "関東鉄道常総線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/177/0",
+      "ひたちなか海浜鉄道湊線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:ibaraki"
+  ]
+}

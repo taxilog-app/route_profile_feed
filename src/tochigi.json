@@ -1,0 +1,58 @@
+{
+  "key": "tochigi",
+  "label": "栃木交通圏",
+  "weatherAreaCode": "090000",
+  "yahooAreaCode": "4",
+  "home": {
+    "name": "宇都宮",
+    "lat": 36.5551,
+    "lng": 139.8828,
+    "radiusKm": 35.0
+  },
+  "adjacent": [
+    {
+      "name": "小山",
+      "lat": 36.3146,
+      "lng": 139.8003,
+      "radiusKm": 12.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "東北新幹線"
+  ],
+  "trainLineNames": [
+    "両毛線",
+    "宇都宮ライトレール線",
+    "宇都宮線[宇都宮〜黒磯]",
+    "宇都宮線[東京〜宇都宮]",
+    "日光線",
+    "東武宇都宮線",
+    "東武日光線[南栗橋〜東武日光]",
+    "東武鬼怒川線",
+    "水戸線",
+    "烏山線",
+    "真岡鐵道線",
+    "野岩鉄道会津鬼怒川線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/1/0",
+      "東北新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/642/0",
+      "宇都宮ライトレール線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/169/0",
+      "東武宇都宮線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:tochigi"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "key": "fukui",
+  "label": "福井交通圏",
+  "weatherAreaCode": "180000",
+  "yahooAreaCode": "5",
+  "home": {
+    "name": "福井",
+    "lat": 36.0619,
+    "lng": 136.2233,
+    "radiusKm": 40.0
+  },
+  "adjacent": [
+    {
+      "name": "敦賀",
+      "lat": 35.6453,
+      "lng": 136.0555,
+      "radiusKm": 15.0
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "北陸新幹線"
+  ],
+  "trainLineNames": [
+    "えちぜん鉄道三国芦原線",
+    "えちぜん鉄道勝山永平寺線",
+    "ハピラインふくい線",
+    "九頭竜線",
+    "北陸本線",
+    "福井鉄道線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/624/0",
+      "北陸新幹線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/643/0",
+      "ハピラインふくい線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/565/0",
+      "福井鉄道線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/566/0",
+      "えちぜん鉄道勝山永平寺線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/489/0",
+      "小浜線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:fukui"
+  ]
+}
