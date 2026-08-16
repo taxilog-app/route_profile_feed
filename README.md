@@ -25,9 +25,22 @@
 3. 緑になったら commit → push。Actions が検査し直して Pages へ配る
 4. アプリ側は**何も変えなくてよい**（次の起動で降ってくる）
 
-⚠️ アプリ同梱のシード（`route_timer_app/assets/area_profiles.json`）は
-ハブに届かない時の最後の砦。区切りの良いところで
-`flutter test test/tools/dump_area_profiles.dart` を回して揃えておく。
+### ⚠️ アプリ同梱のシードとの関係（勘違いしやすい）
+
+同梱シード（`route_timer_app/assets/area_profiles.json`）は**ハブに一度も
+繋がれなかった端末のための最後の砦**で、いまは37圏で止まっている。
+ここに足した新しい営業圏は**シードには入らない**＝ネットに一度でも繋がれば
+届くが、真っさらな端末が圏外のまま初回起動した時だけ出ない。
+
+🔴 `flutter test test/tools/dump_area_profiles.dart` は **dart の定数から**
+シードを作り直す道具で、**ハブの中身は見ない**。これを回してもここの新しい圏は
+シードに入らない（むしろ回す必要が無い）。
+
+シードをハブに追いつかせるには `out/profiles.json` を
+`route_timer_app/assets/area_profiles.json` に写す形になるが、そうすると
+アプリ側の往復試験（シード == dart定数）が落ちる。**dart定数を捨ててハブを
+唯一の出どころにする第2段**が要る＝台帳 `profile-feed-seed-sync` に切り出した。
+それまでは「シードは37圏のまま・新しい圏はハブから届く」で運用する。
 
 ## 検査していること（build.py）
 
