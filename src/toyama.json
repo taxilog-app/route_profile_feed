@@ -1,0 +1,58 @@
+{
+  "key": "toyama",
+  "label": "富山交通圏",
+  "weatherAreaCode": "160000",
+  "yahooAreaCode": "5",
+  "home": {
+    "name": "富山",
+    "lat": 36.7018,
+    "lng": 137.2135,
+    "radiusKm": 25
+  },
+  "adjacent": [
+    {
+      "name": "高岡",
+      "lat": 36.7402,
+      "lng": 137.0157,
+      "radiusKm": 12
+    },
+    {
+      "name": "立山",
+      "lat": 36.5776,
+      "lng": 137.3122,
+      "radiusKm": 12
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [
+    "北陸新幹線"
+  ],
+  "trainLineNames": [
+    "富山地方鉄道本線",
+    "富山地方鉄道立山線",
+    "富山地方鉄道不二越・上滝線",
+    "富山地方鉄道富山市内軌道線",
+    "あいの風とやま鉄道線",
+    "高山本線[猪谷～富山]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/574/0",
+      "富山地方鉄道富山市内軌道線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/571/0",
+      "富山地方鉄道本線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/631/0",
+      "あいの風とやま鉄道線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:toyama"
+  ]
+}

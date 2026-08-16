@@ -1,0 +1,55 @@
+{
+  "key": "matsuyama",
+  "label": "愛媛交通圏",
+  "weatherAreaCode": "380000",
+  "yahooAreaCode": "9",
+  "home": {
+    "name": "松山",
+    "lat": 33.8399,
+    "lng": 132.7507,
+    "radiusKm": 25
+  },
+  "adjacent": [
+    {
+      "name": "今治",
+      "lat": 34.0631,
+      "lng": 132.9958,
+      "radiusKm": 12
+    },
+    {
+      "name": "伊予",
+      "lat": 33.753,
+      "lng": 132.7031,
+      "radiusKm": 10
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "伊予鉄松山市内線",
+    "伊予鉄高浜線・横河原線",
+    "伊予鉄郡中線",
+    "予讃線[高松～松山]",
+    "予讃線[松山～宇和島]"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/603/0",
+      "伊予鉄松山市内線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/600/0",
+      "伊予鉄高浜線・横河原線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/510/510",
+      "予讃線[高松～松山]",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:ehime"
+  ]
+}

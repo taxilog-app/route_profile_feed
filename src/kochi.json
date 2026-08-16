@@ -1,0 +1,54 @@
+{
+  "key": "kochi",
+  "label": "高知交通圏",
+  "weatherAreaCode": "390000",
+  "yahooAreaCode": "9",
+  "home": {
+    "name": "高知",
+    "lat": 33.5672,
+    "lng": 133.5435,
+    "radiusKm": 20
+  },
+  "adjacent": [
+    {
+      "name": "南国",
+      "lat": 33.575,
+      "lng": 133.6414,
+      "radiusKm": 10
+    },
+    {
+      "name": "いの",
+      "lat": 33.5486,
+      "lng": 133.4272,
+      "radiusKm": 10
+    }
+  ],
+  "fullOperators": [],
+  "trunkLineNames": [],
+  "trainLineNames": [
+    "とさでん交通線",
+    "土讃線[多度津～高知]",
+    "土讃線[高知～窪川]",
+    "土佐くろしお鉄道ごめん・なはり線"
+  ],
+  "individualLines": [
+    [
+      "https://transit.yahoo.co.jp/diainfo/598/0",
+      "とさでん交通線",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/512/512",
+      "土讃線[多度津～高知]",
+      "other"
+    ],
+    [
+      "https://transit.yahoo.co.jp/diainfo/544/0",
+      "土佐くろしお鉄道ごめん・なはり線",
+      "other"
+    ]
+  ],
+  "boundaryDirs": [
+    "hub:kochi_city"
+  ]
+}
